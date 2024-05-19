@@ -5,7 +5,7 @@ import { OrbitControls, useGLTF, Preload } from '@react-three/drei';
 import CanvasLoader from '../Loader';
 
 const Computers = ({isMobile}) => {
-  const { scene } = useGLTF('./space_station_3/scene.gltf');
+  const { scene } = useGLTF('./space_station_3.glb');
 
   return (
     <mesh> {/* Use group to wrap the scene */}
