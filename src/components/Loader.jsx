@@ -11,9 +11,11 @@ const Loader = () => {
           fontsize: 14,
           color: '#f1f1f1',
           fontWeight: 800,
-          marginTop: 40
+          marginTop: 40,
+          width: 300,
+          margin: 'auto'
         }}
-      >{progress.toFixed(2)}%</p>
+      >Please Wait &nbsp; <div class = "inline bg-white text-black">{progress.toFixed(2)}%</div></p>
     </Html>
   )
 }
