@@ -13,21 +13,21 @@ const Computers = ({isMobile}) => {
       <pointLight 
         position={[0, 0, 0]}
         intensity={isMobile? 20:35}
-        penumbra = {-10}
+        // penumbra = {-10}
         // castShadow
         color = "green"
       />
       <pointLight 
         position={isMobile?[3.5,0,0]:[5, 0, 0]}
         intensity={15}
-        penumbra = {100}
+        // penumbra = {100}
         // castShadow
         color = "red"
       />
       <pointLight 
         position={[0, 5, 1]}
         intensity={35}
-        penumbra = {100}
+        // penumbra = {100}
         // castShadow
         color = "blue"
       />
@@ -40,7 +40,7 @@ const Computers = ({isMobile}) => {
         color = "orange"
       />
       
-      <spotLight 
+      {/* <spotLight 
         position = {[-20, 50, 10]}
         angle = {0.7}
         penumbra = {3}
@@ -48,7 +48,7 @@ const Computers = ({isMobile}) => {
         castShadow
         shadow-mapSize = {1024}
         shadow-camera-near = {500}
-      />
+      /> */}
       <primitive
         object={scene}
         scale = {isMobile ? 0.7 : 1}
