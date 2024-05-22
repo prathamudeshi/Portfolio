@@ -9,7 +9,8 @@ const Computers = ({isMobile}) => {
 
   return (
     <mesh> {/* Use group to wrap the scene */}
-      <hemisphereLight intensity={2} groundColor="black" color = "white"/>
+      <hemisphereLight intensity={2.2} groundColor="white" color = "white"/>
+      {/* <hemisphereLight intensity={1.1} groundColor="white" color = "white" position = {[10, 0, 0]}/> */}
       <pointLight 
         position={[0, 0, 0]}
         intensity={isMobile? 20:35}
