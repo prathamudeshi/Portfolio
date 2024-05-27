@@ -1,3 +1,4 @@
+import {BallCanvas} from './canvas';
 import React from 'react'
 
 const Tech = () => {
