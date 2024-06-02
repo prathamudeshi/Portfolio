@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    Clang,
     html,
     css,
     reactjs,
@@ -23,6 +23,16 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
+    java,
+    django,
+    flutter,
+    sql,
+    bootstrap,
+    svu,
+    python_compiler,
+    something,
+    portfolio
   } from "../assets";
   
   export const navLinks = [
@@ -46,15 +56,15 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "App Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Intern/Freelancer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Student",
       icon: creator,
     },
   ];
@@ -73,24 +83,24 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C/C++",
+      icon: Clang,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Python",
+      icon: python,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Java",
+      icon: java,
     },
     {
       name: "MongoDB",
@@ -109,64 +119,76 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Django",
+      icon: django,
+    },
+    {
+      name: "Flutter",
+      icon: flutter,
+    },
+    {
+      name: "SQL",
+      icon: sql,
+    },
+    {
+      name: "Bootstrap",
+      icon: bootstrap,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full-Stack Developer",
+      company_name: "Somaiya Vidyavihar University",
+      icon: svu,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - Ongoing",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing web application using React.js, Django, Sqlite and other related technologies.",
+        "Collaborating with cross-functional teams including designers, backend and fronted developers, faculties and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Team Leader/Full-Stack Developer",
+      company_name: "Computer Science Department",
+      icon: svu,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Dec 2023 - Ongoing",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing a compiler to conduct coding examinations at university level.",
+        "Learning basics to execute a server side compiler without any use of third party API's.",
+        "Implementing simplistic and minimalistic design for the  ease of use and to reduce complications in the conduction of an examination.",
+        // "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,16 +220,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Online Compiler",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a full-fledged online compiler for Python and C languages. Minimalistic design for easy surfing and robust backend for server side compilation of the code.",
       tags: [
         {
-          name: "react",
+          name: "django",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: python_compiler,
+      source_code_link: "https://github.com/prathamudeshi/Online_Compiler",
+    },
+    {
+      name: "Frontend Project",
+      description:
+        "Web Applications showcasing some good animations and a clean combo of UI and UX. Also this website has user authentication functionality using php and sql.",
+      tags: [
+        {
+          name: "gsap",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scroller-locomotive",
+          color: "green-text-gradient",
+        },
+        {
+          name: "php",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "sql",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: something,
+      source_code_link: "https://github.com/prathamudeshi/WorkFlow",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "A modern personal portfolio filled with 3D design and attractive animations. Utilization of latest softwares for funxtionalities such as 3d model rendering.",
+      tags: [
+        {
+          name: "threejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "reactjs",
           color: "green-text-gradient",
         },
         {
@@ -215,50 +283,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/prathamudeshi/Portfolio",
     },
   ];
   

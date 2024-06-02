@@ -18,13 +18,13 @@ const Computers = ({isMobile}) => {
         // castShadow
         color = "green"
       />
-      <pointLight 
+      {/* <pointLight 
         position={isMobile?[3.5,0,0]:[5, 0, 0]}
         intensity={15}
         // penumbra = {100}
         // castShadow
         color = "red"
-      />
+      /> */}
       <pointLight 
         position={[0, 5, 1]}
         intensity={35}
@@ -32,14 +32,14 @@ const Computers = ({isMobile}) => {
         // castShadow
         color = "blue"
       />
-      <pointLight 
+      {/* <pointLight 
         position={[5, -15,0]}
         // angle = {0.1}
         intensity={100}
         penumbra = {1}
         // castShadow
         color = "orange"
-      />
+      /> */}
       
       {/* <spotLight 
         position = {[-20, 50, 10]}
@@ -87,7 +87,7 @@ const ComputersCanvas = () => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback = {<CanvasLoader/>}>
-        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI/2} minPolarAngle={Math.PI/2} />
+        <OrbitControls autoRotate enableZoom={false} maxPolarAngle={Math.PI/2} minPolarAngle={Math.PI/2} />
         <Computers isMobile = {isMobile}/>
       </Suspense>
       <Preload all />

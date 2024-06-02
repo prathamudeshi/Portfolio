@@ -44,7 +44,9 @@ const About = () => {
 
       <motion.p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         variants = {fadeIn("","",0.1,1)}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, fugit eos. Vel omnis consectetur eius excepturi, dolorum iure expedita voluptas molestias eligendi ullam non veniam quaerat dignissimos distinctio necessitatibus doloribus hic, commodi pariatur sapiente illum quod ut maiores assumenda aut?
+          I'm a skilled software developer, student, freelancer and an intern. I'm a quick learner and collaborate closely with clients to
+        create efficient, scalable, and user-friendly solutions that solve
+        real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -8,6 +8,13 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
+import Clang from "./tech/Clang.png";
+import django from "./tech/django.png";
+import bootstrap from "./tech/bootstrap.png";
+import flutter from "./tech/flutter.png";
+import sql from "./tech/sql.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
@@ -25,10 +32,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import svu from "./company/svu.png";
 
 import carrent from "./carrent.png";
+import something from "./something.png";
+import python_compiler from "./python_compiler.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -59,4 +70,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  Clang,
+  django,
+  flutter,
+  sql,
+  python,
+  java,
+  bootstrap,
+  svu,
+  python_compiler,
+  something,
+  portfolio
 };
