@@ -82,30 +82,26 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "C/C++",
-      icon: Clang,
-    },
+    // {
+    //   name: "C/C++",
+    //   icon: Clang,
+    // },
     {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Python",
-      icon: python,
-    },
+    // {
+    //   name: "Python",
+    //   icon: python,
+    // },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Java",
-      icon: java,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Java",
+    //   icon: java,
+    // },
     {
       name: "Three JS",
       icon: threejs,
@@ -114,26 +110,26 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "Django",
-      icon: django,
-    },
-    {
-      name: "Flutter",
-      icon: flutter,
-    },
-    {
-      name: "SQL",
-      icon: sql,
-    },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "Django",
+    //   icon: django,
+    // },
+    // {
+    //   name: "Flutter",
+    //   icon: flutter,
+    // },
+    // {
+    //   name: "SQL",
+    //   icon: sql,
+    // },
+    // {
+    //   name: "Bootstrap",
+    //   icon: bootstrap,
+    // },
   ];
   
   const experiences = [
