@@ -8,16 +8,29 @@ const Computers = ({ isMobile }) => {
   const { scene } = useGLTF('./space_station_4.glb');
 
   return (
-    <group>
+    <group >
       <hemisphereLight intensity={2.2} groundColor="white" color="white" />
       <pointLight
         position={[0, 0, 0]}
-        intensity={isMobile ? 20 : 35}
+        intensity={isMobile ? 20 : 40}
         color="green"
+        />
+      <pointLight
+        position={[0, -5, 0]}
+        intensity={isMobile ? 20 : 40}
+        color="violet"
+        distance={1000}
+        />
+      <pointLight 
+        position={isMobile?[3.5,0,0]:[2, 0, 0]}
+        intensity={20}
+        // penumbra = {100}
+        // castShadow
+        color = "red"
       />
       <pointLight
-        position={[0, 5, 1]}
-        intensity={35}
+        position={[0, 0,1]}
+        intensity={12}
         color="blue"
       />
       <primitive
